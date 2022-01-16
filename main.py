@@ -41,7 +41,7 @@ def ShowGameField():
     return game_field
 
 
-def WhitePlacingPiece():  # Taş yerleştirmek
+def WhitePlacingPiece():  # Taş yerleştirmek sdf
     while True:
         placing = input("Enter the placing move for your piece(eg. D3) :")
         if placing in possible_inputs:
